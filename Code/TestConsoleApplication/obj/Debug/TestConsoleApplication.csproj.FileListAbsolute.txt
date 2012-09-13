@@ -1,0 +1,14 @@
+D:\@Projects\LINQtoCSV\CodeProject\Code\TestConsoleApplication\bin\Debug\TestConsoleApplication.exe
+D:\@Projects\LINQtoCSV\CodeProject\Code\TestConsoleApplication\bin\Debug\TestConsoleApplication.pdb
+D:\@Projects\LINQtoCSV\CodeProject\Code\TestConsoleApplication\bin\Debug\LINQtoCSV.dll
+D:\@Projects\LINQtoCSV\CodeProject\Code\TestConsoleApplication\bin\Debug\LINQtoCSV.pdb
+D:\@Projects\LINQtoCSV\CodeProject\Code\TestConsoleApplication\obj\Debug\ResolveAssemblyReference.cache
+D:\@Projects\LINQtoCSV\CodeProject\Code\TestConsoleApplication\obj\Debug\TestConsoleApplication.exe
+D:\@Projects\LINQtoCSV\CodeProject\Code\TestConsoleApplication\obj\Debug\TestConsoleApplication.pdb
+D:\@Projects\LINQtoCSV\Code\TestConsoleApplication\obj\Debug\TestConsoleApplication.exe
+D:\@Projects\LINQtoCSV\Code\TestConsoleApplication\obj\Debug\TestConsoleApplication.pdb
+D:\@Projects\LINQtoCSV\Code\TestConsoleApplication\bin\Debug\TestConsoleApplication.exe
+D:\@Projects\LINQtoCSV\Code\TestConsoleApplication\bin\Debug\TestConsoleApplication.pdb
+D:\@Projects\LINQtoCSV\Code\TestConsoleApplication\bin\Debug\LINQtoCSV.dll
+D:\@Projects\LINQtoCSV\Code\TestConsoleApplication\bin\Debug\LINQtoCSV.pdb
+D:\@Projects\LINQtoCSV\Code\TestConsoleApplication\obj\Debug\ResolveAssemblyReference.cache

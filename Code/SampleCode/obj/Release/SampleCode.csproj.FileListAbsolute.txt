@@ -1,0 +1,7 @@
+D:\@Projects\LINQtoCSV\Code\SampleCode\bin\Release\SampleCode.exe
+D:\@Projects\LINQtoCSV\Code\SampleCode\bin\Release\SampleCode.pdb
+D:\@Projects\LINQtoCSV\Code\SampleCode\bin\Release\LINQtoCSV.dll
+D:\@Projects\LINQtoCSV\Code\SampleCode\bin\Release\LINQtoCSV.pdb
+D:\@Projects\LINQtoCSV\Code\SampleCode\obj\Release\ResolveAssemblyReference.cache
+D:\@Projects\LINQtoCSV\Code\SampleCode\obj\Release\SampleCode.exe
+D:\@Projects\LINQtoCSV\Code\SampleCode\obj\Release\SampleCode.pdb

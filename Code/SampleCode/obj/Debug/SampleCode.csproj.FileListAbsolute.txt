@@ -1,0 +1,14 @@
+D:\@Projects\LINQtoCSV\CodeProject\Code\SampleCode\bin\Debug\SampleCode.exe
+D:\@Projects\LINQtoCSV\CodeProject\Code\SampleCode\bin\Debug\SampleCode.pdb
+D:\@Projects\LINQtoCSV\CodeProject\Code\SampleCode\bin\Debug\LINQtoCSV.dll
+D:\@Projects\LINQtoCSV\CodeProject\Code\SampleCode\bin\Debug\LINQtoCSV.pdb
+D:\@Projects\LINQtoCSV\CodeProject\Code\SampleCode\obj\Debug\ResolveAssemblyReference.cache
+D:\@Projects\LINQtoCSV\CodeProject\Code\SampleCode\obj\Debug\SampleCode.exe
+D:\@Projects\LINQtoCSV\CodeProject\Code\SampleCode\obj\Debug\SampleCode.pdb
+D:\@Projects\LINQtoCSV\Code\SampleCode\bin\Debug\SampleCode.exe
+D:\@Projects\LINQtoCSV\Code\SampleCode\bin\Debug\SampleCode.pdb
+D:\@Projects\LINQtoCSV\Code\SampleCode\bin\Debug\LINQtoCSV.dll
+D:\@Projects\LINQtoCSV\Code\SampleCode\bin\Debug\LINQtoCSV.pdb
+D:\@Projects\LINQtoCSV\Code\SampleCode\obj\Debug\ResolveAssemblyReference.cache
+D:\@Projects\LINQtoCSV\Code\SampleCode\obj\Debug\SampleCode.exe
+D:\@Projects\LINQtoCSV\Code\SampleCode\obj\Debug\SampleCode.pdb
