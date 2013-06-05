@@ -85,6 +85,7 @@ namespace LINQtoCSV
         public Encoding TextEncoding { get; set; }
         public bool DetectEncodingFromByteOrderMarks { get; set; }
 
+        public bool IgnoreMissingProperties { get; set; }
 
         // ---------------
 

@@ -267,8 +267,14 @@ namespace LINQtoCSV
             {
                 TypeFieldInfo tfi = m_IndexToInfo[i];
 
+                if (m_fileDescription.IgnoreMissingProperties &&
+                    tfi == null)
+                {
+                    continue;
+                }
+
                 if (m_fileDescription.EnforceCsvColumnAttribute &&
-                        (!tfi.hasColumnAttribute))
+                    !tfi.hasColumnAttribute)
                 {
                     continue;
                 }
@@ -291,8 +297,14 @@ namespace LINQtoCSV
             {
                 TypeFieldInfo tfi = m_IndexToInfo[i];
 
+                if (m_fileDescription.IgnoreMissingProperties &&
+                    tfi == null)
+                {
+                    continue;
+                }
+
                 if (m_fileDescription.EnforceCsvColumnAttribute &&
-                        (!tfi.hasColumnAttribute))
+                    !tfi.hasColumnAttribute)
                 {
                     continue;
                 }
@@ -383,10 +395,13 @@ namespace LINQtoCSV
             // If there are more names in the file then fields in the type,
             // one of the names will not be found, causing an exception.
 
+            m_IndexToInfo = new TypeFieldInfo[row.Count];
             for (int i = 0; i < row.Count; i++)
             {
                 if (!m_NameToInfo.ContainsKey(row[i].Value))
                 {
+                    if (m_fileDescription.IgnoreMissingProperties) continue;
+
                     // name not found
                     throw new NameNotInTypeException(typeof(T).ToString(), row[i].Value, m_fileName);
                 }
@@ -429,6 +444,12 @@ namespace LINQtoCSV
             for (int i = 0; i < row.Count; i++)
             {
                 TypeFieldInfo tfi = m_IndexToInfo[i];
+
+                if (m_fileDescription.IgnoreMissingProperties &&
+                    tfi == null)
+                {
+                    continue;
+                }
 
                 if (m_fileDescription.EnforceCsvColumnAttribute &&
                         (!tfi.hasColumnAttribute))
@@ -540,10 +561,13 @@ namespace LINQtoCSV
             for (int i = row.Count; i < m_IndexToInfo.Length; i++)
             {
                 TypeFieldInfo tfi = m_IndexToInfo[i];
+                if (m_fileDescription.IgnoreMissingProperties && tfi == null)
+                {
+                    continue;
+                }
 
-                if (((!m_fileDescription.EnforceCsvColumnAttribute) ||
-                     tfi.hasColumnAttribute) &&
-                    (!tfi.canBeNull))
+                if ((!m_fileDescription.EnforceCsvColumnAttribute || tfi.hasColumnAttribute)
+                    && !tfi.canBeNull)
                 {
                     ae.AddException(
                         new MissingRequiredFieldException(

@@ -10,6 +10,8 @@ namespace LINQtoCSV
     /// </summary>
     public class CsvContext
     {
+        public CsvFileDescription FileDescription { get; set; }
+
         /// ///////////////////////////////////////////////////////////////////////
         /// Read
         /// 
@@ -46,12 +48,12 @@ namespace LINQtoCSV
 
         public IEnumerable<T> Read<T>(StreamReader stream) where T : class, new()
         {
-            return Read<T>(stream, new CsvFileDescription());
+            return Read<T>(stream, this.FileDescription);
         }
 
         public IEnumerable<T> Read<T>(string fileName) where T : class, new()
         {
-            return Read<T>(fileName, new CsvFileDescription());
+            return Read<T>(fileName, this.FileDescription);
         }
 
         public IEnumerable<T> Read<T>(StreamReader stream, CsvFileDescription fileDescription) where T : class, new()
@@ -235,14 +237,14 @@ namespace LINQtoCSV
             IEnumerable<T> values,
             TextWriter stream) 
         {
-            Write<T>(values, stream, new CsvFileDescription());
+            Write<T>(values, stream, this.FileDescription);
         }
 
         public void Write<T>(
             IEnumerable<T> values, 
             string fileName) 
         {
-            Write<T>(values, fileName, new CsvFileDescription());
+            Write<T>(values, fileName, this.FileDescription);
         }
 
         public void Write<T>(
@@ -289,6 +291,12 @@ namespace LINQtoCSV
         /// </summary>
         public CsvContext()
         {
+            this.FileDescription = new CsvFileDescription();
+        }
+
+        public CsvContext(CsvFileDescription fileDescription)
+        {
+            this.FileDescription = fileDescription;
         }
     }
 }
