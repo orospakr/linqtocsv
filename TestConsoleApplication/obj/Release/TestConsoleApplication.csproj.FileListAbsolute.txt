@@ -1,7 +1,0 @@
-D:\@Projects\LINQtoCSV\Code\TestConsoleApplication\bin\Release\TestConsoleApplication.exe
-D:\@Projects\LINQtoCSV\Code\TestConsoleApplication\bin\Release\TestConsoleApplication.pdb
-D:\@Projects\LINQtoCSV\Code\TestConsoleApplication\bin\Release\LINQtoCSV.dll
-D:\@Projects\LINQtoCSV\Code\TestConsoleApplication\bin\Release\LINQtoCSV.pdb
-D:\@Projects\LINQtoCSV\Code\TestConsoleApplication\obj\Release\ResolveAssemblyReference.cache
-D:\@Projects\LINQtoCSV\Code\TestConsoleApplication\obj\Release\TestConsoleApplication.exe
-D:\@Projects\LINQtoCSV\Code\TestConsoleApplication\obj\Release\TestConsoleApplication.pdb

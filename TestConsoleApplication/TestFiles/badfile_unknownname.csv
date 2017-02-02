@@ -4,5 +4,5 @@ moonbuggy,   34.184,       5/23/08,   5-May-2009 4:11 pm,       1205,        tru
 a newline", 100, "$78,300", "This field has quotes(""), and
 two newlines
 and a quoted ""string"""
-dog house,    "45,230,990",29 Feb 2004, 8/1/10,                  -56,        True,   ,,                 FF10, "12,008"
+dog house,    "45,230,990",29 Feb 2004, 8/1/10,                  -56,        True,   ,                 FF10, "12,008"
  

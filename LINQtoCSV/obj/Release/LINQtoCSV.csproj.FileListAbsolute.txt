@@ -1,5 +1,0 @@
-D:\@Projects\LINQtoCSV\Code\LINQtoCSV\bin\Release\LINQtoCSV.dll
-D:\@Projects\LINQtoCSV\Code\LINQtoCSV\bin\Release\LINQtoCSV.pdb
-D:\@Projects\LINQtoCSV\Code\LINQtoCSV\obj\Release\ResolveAssemblyReference.cache
-D:\@Projects\LINQtoCSV\Code\LINQtoCSV\obj\Release\LINQtoCSV.dll
-D:\@Projects\LINQtoCSV\Code\LINQtoCSV\obj\Release\LINQtoCSV.pdb
